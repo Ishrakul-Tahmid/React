@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Counter from './Counter'
 import Team from './Team'
+import Users from './users'
+import Friends from './friends'
 
 
 function App() {
@@ -21,6 +23,10 @@ function App() {
   return (
     <> 
       <h3>React core concepts-2</h3>
+
+      <Friends />
+
+      <Users> </Users>
 
       <Counter />
       <Team />
