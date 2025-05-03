@@ -15,7 +15,8 @@ const Countries = () => {
         <div>
             <h3>Countries: {countries.length}</h3>
             {
-                countries.map(country => <Country key={countries.toLocaleString.cca3} country={country}></Country>)
+                countries.map(country => <Country key={country.car.cca3}
+                country={country}></Country>)
             }
         </div>
     );
