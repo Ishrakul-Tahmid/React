@@ -15,15 +15,16 @@ const Countries = () => {
     }, [])
 
     const handleVisitedCountry = (country) => {
-
+        const newVisitedCountries = [...visitedCountries, country];
+        setVisitedCountries(newVisitedCountries);
     }
     return (
         <div >
             <h3>Countries: {countries.length}</h3>
             <div>
-                <h5>Visited Countries</h5>
+                <h5>Visited Countries: {visitedCountries.length}</h5>
                 <ul>
-
+                    {visitedCountries.map(country => <li key={country.car.cca3}>{country.name.common}</li>)}
                 </ul>
             </div>
             {
