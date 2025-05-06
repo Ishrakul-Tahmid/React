@@ -13,7 +13,7 @@ const Sunglass = () => {
     console.log('Sum:', sum);
     return (
         <div>
-            <Watch></Watch>
+            
             <h1>This is sunglass</h1>
         </div>
     );
