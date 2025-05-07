@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co.com/WNZ6pSG5/89781.jpg",
+    "title": "Chasing the Northern Sky",
+    "author": "Liam Hart",
+    "author_img": "https://i.ibb.co.com/5g9xkcqq/front-view-business-male-with-laptop.jpg",
+    "posted_date": "2025-05-06",
+    "reading_time": 6,
+    "hashtags": ["#travel", "#inspiration", "#photography"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co.com/XZxKqPVK/89787.jpg",
+    "title": "Building Scalable Apps with Go",
+    "author": "Priya Natarajan",
+    "author_img": "https://i.ibb.co.com/DDcjF84L/travel-blogger-handsome-young-guy-recording-trip-vlog-camera-with-yellow-luggage-waving-hands.jpg",
+    "posted_date": "2025-04-30",
+    "reading_time": 9,
+    "hashtags": ["#golang", "#backend", "#webdev"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co.com/67gSPbWV/fgjr7.jpg",
+    "title": "The Art of Stillness",
+    "author": "Noah Greene",
+    "author_img": "https://i.ibb.co.com/XxwVW0dt/portrait-man-listening-music.jpg",
+    "posted_date": "2025-05-02",
+    "reading_time": 4,
+    "hashtags": ["#mindfulness", "#lifestyle", "#mentalhealth"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co.com/67V6Fjb3/5590457.jpg",
+    "title": "Reimagining Smart Cities",
+    "author": "Fatima Zahra",
+    "author_img": "https://i.ibb.co.com/sdsVVSP2/brunette-businesswoman-showing-her-tablet.jpg",
+    "posted_date": "2025-04-28",
+    "reading_time": 8,
+    "hashtags": ["#smartcities", "#innovation", "#technology"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co.com/V0fc7h3P/v1016-b-09.jpg",
+    "title": "Beginner's Guide to Personal Finance",
+    "author": "Eric Dawson",
+    "author_img": "https://i.ibb.co.com/JWqW4JZT/cool-guy-sitting-chair-look-up.jpg",
+    "posted_date": "2025-05-04",
+    "reading_time": 5,
+    "hashtags": ["#finance", "#budgeting", "#moneymatters"]
+  }
+]
