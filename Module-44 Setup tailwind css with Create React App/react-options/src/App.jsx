@@ -3,15 +3,15 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
-// import DaisyNav from "./Components/DaisyNav/DaisyNav";
+import DaisyNav from "./Components/DaisyNav/DaisyNav";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      {/* <DaisyNav></DaisyNav> */}
       <NavBar></NavBar>
+      <DaisyNav></DaisyNav>
       <h1>Vite + React</h1>
       <div className="stats shadow">
         <div className="stat">
