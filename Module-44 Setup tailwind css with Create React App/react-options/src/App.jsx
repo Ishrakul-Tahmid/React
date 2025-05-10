@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import DaisyNav from "./Components/DaisyNav/DaisyNav";
+import PriceOptions from "./Components/PriceOptions/PriceOptions";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -69,6 +70,7 @@ function App() {
           <div className="stat-desc text-secondary">31 tasks remaining</div>
         </div>
       </div>
+      <PriceOptions></PriceOptions>
     </>
   );
 }
