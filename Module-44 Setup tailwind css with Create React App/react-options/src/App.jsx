@@ -5,6 +5,7 @@ import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import DaisyNav from "./Components/DaisyNav/DaisyNav";
 import PriceOptions from "./Components/PriceOptions/PriceOptions";
+import LineChart  from "./Components/LineChart/LineChart";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -71,6 +72,8 @@ function App() {
         </div>
       </div>
       <PriceOptions></PriceOptions>
+
+      <LineChart></LineChart>
     </>
   );
 }
