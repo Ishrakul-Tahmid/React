@@ -6,6 +6,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import DaisyNav from "./Components/DaisyNav/DaisyNav";
 import PriceOptions from "./Components/PriceOptions/PriceOptions";
 import LineChart  from "./Components/LineChart/LineChart";
+import Phones from "./Components/Phones/Phones";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -74,6 +75,7 @@ function App() {
       <PriceOptions></PriceOptions>
 
       <LineChart></LineChart>
+      <Phones></Phones>
     </>
   );
 }
