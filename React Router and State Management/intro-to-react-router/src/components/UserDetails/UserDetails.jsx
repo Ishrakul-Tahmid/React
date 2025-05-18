@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
 
-const User = ({ user }) => {
-    const { id, name, email, phone } = user;
+const UserDetails = () => {
+    const user = useLoaderData();
+    const { id, name, email, phone, website } = user;
     const userStyle = {
         border: '2px solid yellow',
         padding: '10px',
@@ -10,15 +11,15 @@ const User = ({ user }) => {
     }
     return (
         <div style={userStyle}>
+            <h2>Details about users</h2>
             <h2>User ID: {id}</h2>
             <h3>Name: {name}</h3>
             <p>Email: {email}</p>
             <p>Phone: {phone}</p>
-            <Link to={`/user/${id}`}>
-                <button>Show Details</button>
-            </Link>
+            <p>Website: {website}</p>
+            <p>Elite user</p>
         </div>
     );
 };
 
-export default User;
+export default UserDetails;
