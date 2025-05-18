@@ -1,13 +1,17 @@
 import React from 'react';
+import './Header.css'; // Assuming you have a CSS file for styling
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
             <h2>Header</h2>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
+            <nav className='p-4'>
+                <span>My website</span>
+                <Link to="/">Home</Link>
+                <Link to="/users">Users</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
             </nav>
         </div>
     );
