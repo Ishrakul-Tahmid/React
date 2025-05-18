@@ -1,3 +1,11 @@
 nav a{
     margin-right: 20px;
 }
+
+nav a.active{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #e4f31c;
+    background-color: rgb(28, 33, 33);
+
+}
