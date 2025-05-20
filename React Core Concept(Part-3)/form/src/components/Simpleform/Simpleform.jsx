@@ -6,7 +6,6 @@ const Simpleform = () => {
         e.preventDefault();
         console.log(e.target.name.value);
         console.log(e.target.email.value);
-        console.log(e.target.phone.value);
         console.log('Form submitted');
     }
 
@@ -17,7 +16,7 @@ const Simpleform = () => {
                 <br></br>
                 <input type="email" name="email" id="" />
                 <br></br>
-                <input type="text" name="phone" id="" />
+                <input type="password" name="password" id="" />
                 <br></br>
                 <button type='submit'>Submit</button>
             </form>
